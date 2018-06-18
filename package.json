@@ -1,0 +1,25 @@
+{
+  "name": "site-vanilla",
+  "version": "1.0.0",
+  "description": "This is a project demo that uses Vanilla JS to build a Single Page Application.",
+  "main": "server.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3",
+    "handlebars": "^4.0.11",
+    "jquery": "^3.3.1",
+    "semantic-ui-css": "^2.3.2",
+    "vanilla-router": "^1.2.6"
+  }
+}
