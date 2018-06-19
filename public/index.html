@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +8,7 @@
   <link rel="stylesheet" href="scripts/semantic-ui-css/semantic.min.css">
   <title>SPA Demo</title>
 </head>
+
 <body>
   <div class="ui container">
     <!-- Navigation Menu -->
@@ -29,6 +31,38 @@
     <!-- Application Root -->
     <div id="app"></div>
   </div>
+
+<!-- Error Template -->
+<script id="error-template" type="text/x-handlebars-template">
+  <div class="ui {{color}} inverted segment" style="height:250px;">
+    <br>
+    <h2 class="ui center aligned icon header">
+      <i class="exclamation triangle icon"></i>
+      <div class="content">
+        {{title}}
+        <div class="sub header">{{message}}</div>
+      </div>
+    </h2>
+  </div>
+</script>
+
+<!-- Currency Rates Template -->
+<script id="rates-template" type="text/x-handlebars-template">
+  <h1 class="ui header">Currency Rates</h1>
+  <hr>
+</script>
+
+<!-- Exchange Conversion Template -->
+<script id="exchange-template" type="text/x-handlebars-template">
+  <h1 class="ui header">Exchange Conversion</h1>
+  <hr>
+</script>
+
+<!-- Historical Rates Template -->
+<script id="historical-template" type="text/x-handlebars-template">
+  <h1 class="ui header">Historical Rates</h1>
+  <hr>
+</script>
 
   <!-- JS Library Dependencies -->
   <script src="scripts/jquery/dist/jquery.min.js"></script>
